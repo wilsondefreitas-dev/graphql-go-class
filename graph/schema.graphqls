@@ -6,8 +6,8 @@ type Category{
 }
 
 type Course{
-  id: ID!
-  name: String
+  id: ID! 
+  name: String!
   description: String
   category: Category!
 }
